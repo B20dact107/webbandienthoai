@@ -1,0 +1,235 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+#wrapper{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: arial;
+   
+}
+
+.clr {
+	clear:both;
+}
+.topnav{
+    background-color: #e9e9e9;
+}
+.topnav input[type=text]{
+    margin-left: 200px;
+    font-size: 16px;
+}
+/*Phan Menu*/
+#menu_tab {
+	width:100%;
+        height: 1px;
+}
+ul.menu {
+	float:left;
+	background:url(../images/background_menu.jpg) repeat-x;
+	display:block;
+	list-style-type:none;
+	font-weight:bold;
+	width:100%;
+	height: 28px;
+	padding:12px;
+        margin: 0.5px;
+}
+ul.menu li {
+	display:inline;
+	font-size:14px;
+	padding-top: 15px;
+	text-align:center;
+	line-height:30px;
+        color:#E2D9BC;
+}
+ul.menu li a{
+	margin: 10px;
+	padding-left:0px;
+	text-decoration:none;
+	text-align:center;
+	color:#E2D9BC;
+	position:relative;
+}
+ul.menu li a:hover{
+    color:#F90;
+}
+ul.menu li a.active{
+    color:#F90;
+}
+#content{
+    margin-left: 20px;
+    width: 100%;
+}
+
+ul.tab{
+    list-style: none;
+}
+ul.tab li{
+    display: block;
+    margin-top: 10px;
+}
+
+ul.tab li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+ul.tab li a:hover{
+    background-color: #F90;
+}
+ul.tab li a.active{
+    background-color: #F90;
+    color: white;
+}
+#tab2{
+    width: 85%;
+    float: left;
+}
+ul.item{
+  list-style: none;
+    float: left;
+    width:100%;
+
+}
+ul.item li{
+    width:25%;
+    text-align:center;
+    float:left;
+    margin: 20px;
+    border: 2px solid chocolate;
+    border-radius: 20px;
+}
+ul.item li img{
+    margin-top:5px;
+    width:90%;
+    height: 70%;
+}
+ul.item li a{
+    text-decoration: none;
+}
+ul.item li:hover{
+    background: bisque;
+    transform: scale(1.05)
+}
+ul.tem p{
+    display: flex;
+    margin:5px;
+    color:blue;
+    font-size: 12px;
+}
+.old{
+    text-decoration: line-through;
+    color:red;
+}
+/*ul.menu li .ATM {
+	background:#270A02;
+	border:none;
+	color:#C60;
+}
+ul.menu li a:hover{
+	color:#F90;
+}
+ul.menu li a:active{
+	color:#FF0;
+}
+ul.menu li a:focus {
+	color:#96F;
+}*/
+/*Phan footer*/
+/*.footer {
+	background:url(../images/footer_bg.png) repeat-x;
+        color: #ffffff;
+        width:1200px;
+}
+.footer .logo {
+	padding-top: 40px;
+	padding-left: 300px;
+	margin-bottom:10px;
+	-webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;   
+	-o-transition: all 2s ease-in-out;
+	transition: all 2s ease;
+}
+.footer .footer_border {
+	height:2px;
+	background:#491D0F;
+	margin-bottom:10px;
+}
+.footer .foot {
+	padding-top: 10px;
+	padding-left: 450px;
+	padding-bottom: 20px;
+}
+.footer .foot h3 {
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;   
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease;
+}
+.footer:hover .logo {
+  -webkit-transform:translateX(600px);
+  -moz-transform:translateX(600px);
+  -o-transform:translateX(600px);
+}
+.footer .foot:hover h3 {
+  -webkit-transform:translateY(-60px);
+  -moz-transform:translateY(-60px);
+  -o-transform:translateY(-60px);
+  color:#F60;
+}
+phan form
+.login{
+    width: 1200px;
+    height: auto;
+}*/
+/*Phan footer*/
+.footer {
+    margin-left: 5%;
+    margin-right : 5%;
+    background:url(../images/footer_bg.png) repeat-x;
+    color: #ffffff;
+    width:90%;
+}
+.footer .logo1 {
+    padding-top: 40px;
+    padding-left: 220px;
+    max-width: 100%;
+/*    margin-bottom:10px;*/
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease;
+}
+.footer .footer_border {
+    height:2px;
+    background:#491D0F;
+    margin-bottom:10px;
+}
+.footer .foot {
+    padding-top: 10px;
+    padding-left: 450px;
+    padding-bottom: 20px;
+}
+.footer .foot h3 {
+     margin: 0.5px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease;
+}
+.footer .foot p {
+     margin: 0.5px;
+    
+}
+.footer:hover .logo1 {
+    -webkit-transform:translateX(600px);
+    -moz-transform:translateX(600px);
+    -o-transform:translateX(600px);
+}
+.footer .foot:hover h3 {
+    -webkit-transform:translateY(-60px);
+    -moz-transform:translateY(-60px);
+    -o-transform:translateY(-60px);
+    color:#F60;
+}
